@@ -1,0 +1,8 @@
+{
+  "name": "devkit-cli",
+  "version": "1.0.0",
+  "private": true,
+  "bin": {
+    "devkit-cli": "bin/devkit-cli.js"
+  }
+}
