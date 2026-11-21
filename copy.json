@@ -1,0 +1,18 @@
+{
+  "headline": "Ship everyday dev chores faster with one pocket CLI.",
+  "benefits": [
+    "Six real utilities in one dependency-free binary",
+    "Works with Node 18+ on your existing workflow",
+    "Solve repetitive chores without installing bulky tools"
+  ],
+  "faq": [
+    {
+      "q": "Will it slow down my workflow?",
+      "a": "It is a lightweight binary that runs instantly."
+    },
+    {
+      "q": "Do I need to install dependencies?",
+      "a": "Zero dependencies means you can just run it."
+    }
+  ]
+}
