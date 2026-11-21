@@ -3,17 +3,17 @@
 A pocket CLI for everyday developer chores
 
 ## Overview
-DevKit CLI is a single-binary command-line toolkit that bundles six everyday developer utilities—formatting helpers, file conversions, and quick checks—into one download. It runs on Node 18+ with zero external dependencies, so you can drop it into any project or machine without installing a dependency tree. Built for developers who want small, predictable chores handled fast without context-switching to web tools.
+DevKit CLI is a small command-line tool for common developer tasks, packaged as a single downloadable bundle for Node 18+. It combines six practical utilities—such as JSON formatting, Base64 encoding and decoding, UUID generation, hashing, timestamp conversion, and .env validation—without requiring additional npm packages. It is intended for developers who want quick local helpers without adding dependencies to a project.
 
 ## Use cases
-- Converting a JSON payload to YAML while debugging an API response on a flight with no internet.
-- Batch-renaming and linting a folder of config files before committing a pull request.
-- Generating a quick hash or UUID during local testing without opening a browser tab.
+- You need to pretty-print and validate a JSON payload copied from an API response before saving it as a test fixture.
+- You are debugging a webhook and need to decode a Base64 token or generate a UUID for a temporary test record.
+- You want to calculate a file hash or convert a Unix timestamp while inspecting logs on a machine where installing extra CLI tools is inconvenient.
 
 ## How to use
-1. Download the appbundle and extract it to a folder on your machine.
-2. Add the extracted binary to your PATH or run it directly with node devkit.js.
-3. Run `devkit --help` to list the six utilities and start using one.
+1. Download the appbundle and extract it to a convenient folder.
+2. Confirm Node 18 or newer is installed, then run the included entry point with Node.
+3. Run the help command to see the six utilities and their flags, then invoke the one you need with your input.
 
 ## What is included
 - Six real utilities in one binary
